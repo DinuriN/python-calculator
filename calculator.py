@@ -35,25 +35,3 @@ if __name__=="__main__":
             print(e)
     else:
         print("Invalid Operation. Try again")
-
-
-    # print("Simple Calculator")
-    # print("Operations: Add, Subtract, Multiply, Divide")
-
-    # a=float(input("Enter first number: "))
-    # operation = input("Enter operation: +, -, *, /: ").strip().lower()
-    # b=float(input("Enter second number: "))
-
-    # if operation == "+":
-    #     print("Answer: ", add(a,b))
-    # elif operation == "-":
-    #     print("Answer: ", subtract(a,b))
-    # elif operation== "*":
-    #     print("Answer: ", multiply(a,b))
-    # elif operation == "/":
-    #     try:
-    #         print("Answer: ", divide(a,b))
-    #     except ValueError as e:
-    #         print(e)
-    # else:
-    #     print("Invalid operation. Try again.")

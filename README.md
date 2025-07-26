@@ -16,10 +16,14 @@ A simple command-line calculator app written in Python.
 ### Run Locally
 
 ```sh
-python calculator.py
+python calculator.py <operation> <a> <b>
 ```
 
-Follow the prompts to enter numbers and select an operation (`+`, `-`, `*`, `/`).
+Example:
+```sh
+python calculator.py add 5 3
+```
+Supported operations: `add`, `subtract`, `multiply`, `divide`
 
 ### Run Tests
 
@@ -37,7 +41,7 @@ Build and run the calculator in a container:
 
 ```sh
 docker build -t python-calculator .
-docker run -it python-calculator
+docker run -it python-calculator add 5 3
 ```
 
 ## Project Structure
