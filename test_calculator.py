@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(10,5), 15)
     def test_subtract(self):
         self.assertEqual(subtract(20,4),16)
-    def test_multiplu(self):
+    def test_multiply(self):
         self.assertEqual(multiply(7,8),56)
     def test_divide(self):
         self.assertEqual(divide(6,3),2)
